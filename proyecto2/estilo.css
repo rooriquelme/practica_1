@@ -10,7 +10,7 @@ body{
     border-bottom-color: beige;
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border-top: 6pxS;
+    border-top: 6px;
     background: rgb(255,204,132);
     background: radial-gradient(circle, rgba(255,204,132,1) 42%, rgba(196,112,136,1) 83%);
 
@@ -28,16 +28,65 @@ body{
     color:rgb(5, 5, 5);
     background-color: rgb(240, 192, 109);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-decoration: black;    
+    text-decoration: black;  
+    display: flexbox;
 }
-.bg-light{
-    
+.carousel{
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+
 }
- .h1{
+.card{
+    margin-left:5% ;
+    margin-right:5% ;
+    background: rgb(255,204,132);
+    background: radial-gradient(circle, rgba(255,204,132,1) 42%, rgba(196,112,136,1) 83%);
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:20px ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.card2{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+   
+}
+.card3{
+    align-items: center;
+}
+.productoscajas{
+    height: 42%;
+    width: 48%;
+    display: flex;
+  
+}
+.card-body{
+    background: rgb(255,204,132);
+    background: radial-gradient(circle, rgba(255,204,132,1) 42%, rgba(196,112,136,1) 83%); 
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 150%;
+}
+   
+ h2{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1px;
- }      
+ } 
+ .carousel-inner{
+    border: 30px;
+ }
+ .nosotros{
+   text-indent: 6%;
+   text-align: left;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 140%;
+   align-items: flex-start;
+   top:5px;
+ }  
 
 
 
